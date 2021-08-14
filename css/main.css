@@ -60,3 +60,46 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+
+.container:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.container__box--orange {
+    background-color: orange;
+}
+.container__box--blue {
+    background-color: skyblue;
+}
+.container__box--red {
+    background-color: tomato;
+}
+
+div[class*="float-"]{
+    height: 300px;
+    float: left;
+    border: 3px solid #000;
+    box-sizing: border-box;
+}
+.float-20 {
+    width: 20%;
+}
+.float-30 {
+    width: 30%;
+}
+.float-33 {
+    width: 33.333333%;
+}
+.float-40 {
+    width: 40%;
+}
+.float-50 {
+    width: 50%;
+}
+.float-60 {
+    width: 60%;
+}
